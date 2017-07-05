@@ -42,7 +42,6 @@ public class InputToExpectedOutput {
 	public static int sum(int large,char[] ch1){
 		int i;
 		int sum=0;
-		System.out.println("sum "+k);
 		for(i=0;i<k;i++){
 			sum=sum+(large*ch1[i]);
 		}
@@ -59,7 +58,6 @@ public class InputToExpectedOutput {
 			}
 			large=sum;
 			sum=0;
-			System.out.println(large);
 		}
 		return large;
 	}
